@@ -1,0 +1,109 @@
+.attribution {
+    font-size: 11px; text-align: center;
+    color: lightblue;
+}
+.attribution a {
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("images/bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 14px;
+    font-family: "raleway",sans-serif;
+    height: 100%;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 50% auto;
+}
+#options{
+    background-color: hsl(228, 56%, 26%);
+    margin: 20px 20px 0 20px;
+    border-radius: 10px 35% 10px 10px;
+    padding: 40px;
+}
+#options > img{
+    margin-left: 10px;
+}
+#icons{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    margin-top: 20px
+}
+.icon{
+    padding: 10px 12px;
+    margin: 10px;
+    background-color:  hsl(229, 57%, 11%);
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+}
+#display{
+    background-color: hsl(228, 56%, 26%);
+    margin: 10px 20px 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px 70px 10px;
+}
+#usage{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 400;
+}
+#range{
+    margin: 10px 25px 0 25px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: hsl(229, 57%, 11%);
+    padding: 1px;
+}
+#slider{
+    background: linear-gradient(to right,hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+    height:15px;
+    width: 81.5%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#head{
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    margin: 1px 2px 1px 1px;
+}
+#scale{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 25px 0 25px;
+    color: white;
+}
+#remaining{
+    background-color: white;
+    padding: 10px 0px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 25% -100px 25%;
+}
+#remaining span:first-of-type{
+    font-size: 36px;
+    font-weight: 700;
+}
+#left{
+    text-transform: uppercase;
+    margin-left: 10px;
+    color: hsl(229, 7%, 55%);
+    font-weight: 700;
+}
